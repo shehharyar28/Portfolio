@@ -1,0 +1,9 @@
+{
+  "[project]/components/assistant/index.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/assistant/index.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/_13x95fu._.js",
+      "static/chunks/components_assistant_index_tsx_1xrd-dx._.js"
+    ]
+  }
+}

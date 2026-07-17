@@ -1,0 +1,225 @@
+@import "tailwindcss";
+
+:root {
+  --background: #030712;
+  --foreground: #e2e8f0;
+  --holo-cyan: #22d3ee;
+  --holo-teal: #2dd4bf;
+  --holo-indigo: #818cf8;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-space);
+  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-orbitron);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-space), system-ui, sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-orbitron), var(--font-space), sans-serif;
+}
+
+/* Perspective galaxy floor */
+.galaxy-floor {
+  background:
+    linear-gradient(to bottom, transparent, rgba(3, 7, 18, 0.9)),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 48px,
+      rgba(34, 211, 238, 0.12) 48px,
+      rgba(34, 211, 238, 0.12) 49px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 48px,
+      rgba(34, 211, 238, 0.1) 48px,
+      rgba(34, 211, 238, 0.1) 49px
+    );
+  transform: perspective(500px) rotateX(62deg);
+  transform-origin: bottom center;
+  mask-image: linear-gradient(to top, black 10%, transparent 90%);
+}
+
+/* Holographic card border animation */
+.holo-card-border {
+  background: linear-gradient(
+    120deg,
+    rgba(34, 211, 238, 0.15),
+    rgba(45, 212, 191, 0.55),
+    rgba(129, 140, 248, 0.45),
+    rgba(34, 211, 238, 0.7),
+    rgba(45, 212, 191, 0.2)
+  );
+  background-size: 300% 300%;
+  animation: holo-border-shift 7s ease infinite;
+}
+
+.holo-sheen {
+  background: linear-gradient(
+    105deg,
+    transparent 40%,
+    rgba(34, 211, 238, 0.12) 45%,
+    rgba(255, 255, 255, 0.18) 50%,
+    rgba(129, 140, 248, 0.12) 55%,
+    transparent 60%
+  );
+  background-size: 200% 100%;
+  animation: holo-sheen-sweep 2.2s ease forwards;
+}
+
+@keyframes holo-border-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes holo-sheen-sweep {
+  from {
+    background-position: 200% 0;
+  }
+  to {
+    background-position: -40% 0;
+  }
+}
+
+/* Chromatic / hologram text */
+.holo-text {
+  background: linear-gradient(
+    90deg,
+    #67e8f9 0%,
+    #e0f2fe 25%,
+    #5eead4 50%,
+    #c7d2fe 75%,
+    #67e8f9 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: holo-text-flow 6s linear infinite;
+  filter: drop-shadow(0 0 18px rgba(34, 211, 238, 0.35));
+}
+
+@keyframes holo-text-flow {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/* Glitch accent on hover */
+.holo-glitch:hover {
+  animation: holo-glitch 0.45s steps(2, end);
+}
+
+@keyframes holo-glitch {
+  0% {
+    text-shadow:
+      2px 0 #22d3ee,
+      -2px 0 #818cf8;
+  }
+  40% {
+    text-shadow:
+      -2px 0 #22d3ee,
+      2px 0 #818cf8;
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
+/* Phone frame subtle pulse */
+.holo-phone {
+  animation: phone-pulse 4s ease-in-out infinite;
+}
+
+@keyframes phone-pulse {
+  0%,
+  100% {
+    box-shadow:
+      0 0 40px rgba(34, 211, 238, 0.25),
+      inset 0 0 30px rgba(34, 211, 238, 0.08);
+  }
+  50% {
+    box-shadow:
+      0 0 55px rgba(45, 212, 191, 0.4),
+      inset 0 0 40px rgba(34, 211, 238, 0.12);
+  }
+}
+
+/* Assistant highlight */
+.assistant-highlight {
+  animation: assistant-glow 2.4s ease-out;
+  border-radius: 1rem;
+}
+
+@keyframes assistant-glow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(34, 211, 238, 0.55);
+    background-color: rgba(34, 211, 238, 0.08);
+  }
+  40% {
+    box-shadow: 0 0 0 12px rgba(34, 211, 238, 0.12);
+    background-color: rgba(34, 211, 238, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(34, 211, 238, 0);
+    background-color: transparent;
+  }
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* Tech button */
+.btn-holo {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+.btn-holo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.25),
+    transparent
+  );
+  transform: translateX(-120%);
+  transition: transform 0.6s ease;
+  z-index: -1;
+}
+.btn-holo:hover::before {
+  transform: translateX(120%);
+}

@@ -1,0 +1,6 @@
+LoadNavigator is a smart mobile solution designed for the transportation and logistics industry. The app helps drivers, carriers, and operators manage loads, routes, payments, and essential documents in one place. 
+With features such as load posting, route planning, permit scanning, job tracking, and profile management, users can stay organized and work more efficiently on the go.
+
+The app is built to simplify daily operations by reducing paperwork and improving communication between users. 
+It offers tools for viewing available loads, tracking job progress, accessing important information quickly, and managing account details with ease. 
+LoadNavigator is designed to make trucking and freight operations more convenient, faster, and more transparent for both individual drivers and businesses.

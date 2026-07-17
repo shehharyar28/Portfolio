@@ -1,0 +1,2 @@
+RideLink Rider is a smart driver app that helps riders accept trips,
+manage bookings, track earnings, and provide safe, reliable transportation with ease.

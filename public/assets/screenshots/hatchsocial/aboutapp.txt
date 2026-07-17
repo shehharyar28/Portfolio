@@ -1,0 +1,43 @@
+Hatch Social App Flow
+=====================
+
+- App launches from App.jsx.
+- The app initializes Redux store, persistence, Stripe provider, NativeBase provider, toast system, and the Agora/RTM provider.
+- On startup, the app requests required permissions for camera, storage/files, location, notifications, and messaging.
+- A splash screen is shown during the initial loading period.
+- After loading, the app uses the navigation logic in SRC/appNavigation.js to decide the first screen.
+
+Main navigation decision flow:
+- If no user token exists, the app opens the LoginScreen.
+- If the user has no active subscription plan, the app opens the Membership screen.
+- If the user has no profile yet, the app opens the Profile screen.
+- If the profile is not selected, the app opens the ProfilesListing screen.
+- If interests are not selected, the app opens the InterestSelection screen.
+- If Nests are not selected, the app opens the BubbleSelection screen.
+- Otherwise, the app enters the main app experience through TabNavigation.
+
+Main app experience:
+- The bottom tab navigation includes HomeScreen, BubbleSearch, Posting, Inbox, and AccountDetails.
+- From HomeScreen, users can view content, filters, posts, and community-related activities.
+- BubbleSearch allows users to browse and search Nests/communities.
+- Posting lets users create new content or filter posts.
+- Inbox handles messages and chat-related flows.
+- AccountDetails is the main account/profile management area.
+
+Additional flows available from the app:
+- Authentication and account setup: LoginScreen, Signup, ResetPassword, ChangePassword, EnterPhone, VerifyNumber.
+- Profile onboarding: Profile, ProfilesListing, ProfileType, LoginProfile, AccountUpdate.
+- Interest and Nest onboarding: InterestSelection, BubbleSelection, CreateNewBubble, BubbleList, BubbleDetail.
+- Content creation: AddPost, CreateNewFeed, Posting, FeedList, FeedSelection, PostScreen, MyPost.
+- Community and events: Nest, Allcommunities, AddEvents, EventDetails.
+- Payments and subscriptions: MemberShip, SubscriptionScreen, AddCard, PaymentMethod, PaymentScreen, CheckoutWebView, PaymentDetails, PaymentConfirmationScreen.
+- Messaging and calls: ChatScreen, ChatRoomScreen, VideoCallScreen, AudioCallScreen.
+- Privacy, settings, and admin tools: Settings, PrivacyPolicy, AdminModeratorScreen, ReactionList, ViewReactionScreen.
+
+Overall user journey:
+- User starts at the splash screen.
+- User logs in or signs up.
+- User completes profile setup.
+- User selects interests and Nests.
+- User enters the main app dashboard.
+- User can browse content, interact with communities, chat, post, and manage account settings.

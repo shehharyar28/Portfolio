@@ -1,0 +1,5 @@
+
+QBid is a mobile platform designed to connect people who need help with trusted professionals and service providers. 
+Users can create requests, browse available offers, communicate directly, and complete transactions in a 
+simple and secure experience. The app is built to make hiring, negotiating, and managing services easier, 
+faster, and more transparent for both customers and service providers.
