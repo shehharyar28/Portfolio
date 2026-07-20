@@ -727,44 +727,44 @@ export const knowledge: KnowledgeBase = {
   faqs: [
     {
       id: "faq-who",
-      question: "Who is Baber?",
+      question: "Who is Sheharyar?",
       answer:
-        "Syed Baber Ali is a Senior Mobile Application Developer and Team Lead based in Karachi, Pakistan, with over six years of experience shipping React Native, Next.js, Angular, and AI surveillance products across healthcare, logistics, fintech, ride-hailing, and enterprise domains.",
-      aliases: ["who are you", "about baber", "introduce baber"],
+        "Sheharyar is a Mobile Application Developer based in Karachi, Pakistan, with over three years of experience building React Native and Flutter apps for healthcare, logistics, ride-hailing, e-commerce, retail POS, and enterprise products.",
+      aliases: ["who are you", "about sheharyar", "introduce sheharyar"],
     },
     {
       id: "faq-rn",
-      question: "Has Baber worked on React Native?",
+      question: "Has Sheharyar worked on React Native?",
       answer:
-        "Yes. Baber has over four years of professional React Native experience and has led React Native teams delivering commercial apps across healthcare, logistics, AI surveillance, ride-sharing, and enterprise platforms.",
-      aliases: ["react native", "rn experience"],
+        "Yes. Sheharyar has built production React Native apps for ride-hailing, healthcare, logistics, shopping, and POS workflows, including RideLynk, LookClean, Facilitate, MBN App, QBid, and LoadNavigator.",
+      aliases: ["react native", "rn experience", "react-native"],
     },
     {
       id: "faq-apps-count",
       question: "How many apps has he published?",
       answer:
-        "Baber has worked on more than twenty commercial applications. Live store apps include RideLynk on Play Store, plus LookClean and Facilitate on both the Apple App Store and Google Play Store.",
+        "Sheharyar has contributed to 10+ commercial applications and multiple live releases, including RideLynk, LookClean, Facilitate, MBN App, QBid, and LoadNavigator across App Store and Play Store listings.",
       aliases: ["how many apps", "published apps", "play store apps", "app store"],
     },
     {
       id: "faq-pos",
-      question: "Can Baber build POS software?",
+      question: "Can Sheharyar build POS software?",
       answer:
-        "Yes. Baber built Order Intel POS in Angular for multi-brand retail rollout — Costa Coffee, Broadway, and California — with a planned Electron wrapper for Windows EXE. A live demo is available online.",
+        "Yes. He built Order Intel POS in Angular for multi-brand retail rollout across Costa Coffee, Broadway, and California, with a planned Electron-based desktop path for Windows deployment.",
       aliases: ["pos", "point of sale", "point-of-sale", "costa", "electron"],
     },
     {
       id: "faq-angular",
-      question: "Has Baber worked on Angular?",
+      question: "Has Sheharyar worked on Angular?",
       answer:
-        "Yes. Baber built the Order Intel POS frontend in Angular, architected for Electron desktop packaging and multi-brand deployment across Costa Coffee, Broadway, and California.",
-      aliases: ["angular", "ng", "has baber worked on angular"],
+        "Yes. Sheharyar has Angular experience through the Order Intel POS frontend, which was designed for retail order intelligence and multi-brand deployments.",
+      aliases: ["angular", "ng", "has sheharyar worked on angular"],
     },
     {
       id: "faq-backend",
-      question: "Can Baber build scalable backend systems?",
+      question: "Can Sheharyar build scalable backend systems?",
       answer:
-        "Baber regularly designs end-to-end architectures and integrates REST APIs, Firebase, authentication, notifications, payments, chat, and mapping services. He focuses primarily on mobile and full-product delivery with strong API integration expertise.",
+        "Yes. He regularly designs end-to-end product architectures and integrates REST APIs, Firebase, authentication, notifications, payments, chat, and mapping services for mobile and enterprise applications.",
       aliases: ["backend", "scalable backend", "fastapi", "api"],
     },
   ],
@@ -779,22 +779,22 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
   entries.push({
     id: "about",
     category: "about",
-    title: "About Baber",
+    title: "About Sheharyar",
     content: kb.about.introduction,
     keywords: [
       "who",
       "about",
       "introduction",
       "profile",
-      "baber",
-      "syed baber ali",
+      "sheharyar",
       "developer",
+      "mobile developer",
       "team lead",
     ],
-    aliases: ["who is baber", "tell me about baber", "personal introduction"],
+    aliases: ["who is sheharyar", "tell me about sheharyar", "personal introduction"],
     priority: 10,
     actions: [
-      { type: "scroll_contact", label: "Contact Baber", targetId: "contact" },
+      { type: "scroll_contact", label: "Contact Sheharyar", targetId: "contact" },
       { type: "download_resume", label: "Download Resume" },
     ],
   });
@@ -815,10 +815,9 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
       "career",
       "job",
       "virtuexolutions",
-      "tafsol",
-      "sas",
-      "team lead",
-      "senior",
+      "suparco",
+      // "team lead",
+      "react native developer",
     ],
     aliases: ["work history", "professional experience", "where did he work"],
     priority: 9,
@@ -829,7 +828,7 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
     id: "skills",
     category: "skills",
     title: "Skills & Technologies",
-    content: `Baber's core skills include ${kb.skills.primary.join(", ")}. He also works with ${kb.skills.secondary.join(", ")}. Tools: ${kb.skills.tools.join(", ")}.`,
+    content: `Sheharyar's core skills include ${kb.skills.primary.join(", ")}. He also works with ${kb.skills.secondary.join(", ")}. Tools: ${kb.skills.tools.join(", ")}.`,
     keywords: [
       "skills",
       "technologies",
@@ -851,7 +850,7 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
     category: "technologies",
     title: "React Native Experience",
     content:
-      "Yes. Baber has over four years of professional React Native experience. He has developed commercial applications across healthcare, logistics, AI surveillance, ride sharing, management systems and enterprise platforms. As Team Lead he also mentors React Native teams and owns architecture decisions.",
+      "Yes. Sheharyar has built production React Native apps across healthcare, logistics, ride-hailing, e-commerce, retail POS, and enterprise platforms, including RideLynk, LookClean, Facilitate, MBN App, QBid, and LoadNavigator.",
     keywords: [
       "react native",
       "rn",
@@ -867,7 +866,7 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
       "rn",
       "mobile apps",
       "mobile development",
-      "has baber worked on react native",
+      "has sheharyar worked on react native",
     ],
     technologies: [
       "React Native",
@@ -901,7 +900,7 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
     category: "technologies",
     title: "Flutter",
     content:
-      "That information hasn't been added to Baber's current portfolio materials. His publicly listed expertise centers on React Native, Next.js, Angular, Electron, and AI surveillance systems.",
+      "Sheharyar also works with Flutter and has used it alongside React Native for cross-platform app delivery, with a focus on polished mobile experiences and production-ready architecture.",
     keywords: ["flutter", "dart"],
     aliases: ["flutter", "dart apps"],
     priority: 4,
@@ -912,9 +911,9 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
     category: "technologies",
     title: "Next.js Experience",
     content:
-      "Yes. Baber builds modern web applications with Next.js and TypeScript. Live examples include FleetEx Logistics, Rapid Express Logistics, and the REL client portal.",
+      "Yes. Sheharyar builds modern web applications with Next.js and TypeScript. Live examples include FleetEx Logistics, Rapid Express Logistics, and the REL client portal.",
     keywords: ["nextjs", "next.js", "next", "react", "web", "website"],
-    aliases: ["next js", "nextjs", "does baber know next.js"],
+    aliases: ["next js", "nextjs", "does sheharyar know next.js"],
     technologies: ["Next.js", "TypeScript", "React", "Tailwind CSS"],
     projectIds: ["proj-fleetex", "proj-rel", "proj-rel-portal"],
     priority: 11,
@@ -928,7 +927,7 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
     category: "technologies",
     title: "Angular Experience",
     content:
-      "Yes. Baber has professional Angular experience. He built Order Intel POS in Angular — designed to connect with Electron later for a native Windows EXE — targeting multi-brand retail deployments for Costa Coffee, Broadway, and California.",
+      "Yes. Sheharyar has professional Angular experience. He built Order Intel POS in Angular for multi-brand retail deployments targeting Costa Coffee, Broadway, and California.",
     keywords: [
       "angular",
       "ng",
@@ -942,7 +941,7 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
     ],
     aliases: [
       "angular",
-      "has baber worked on angular",
+      "has sheharyar worked on angular",
       "electron",
       "costa coffee",
     ],
@@ -964,9 +963,9 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
     category: "technologies",
     title: "FastAPI",
     content:
-      "That information hasn't been added yet to Baber's public portfolio. He regularly integrates REST APIs and designs end-to-end product architectures. Specific FastAPI project details can be added to the knowledge base when available.",
+      "Sheharyar regularly integrates REST APIs and designs end-to-end product architectures, though specific FastAPI project details are not highlighted in the public portfolio.",
     keywords: ["fastapi", "fast api", "python backend"],
-    aliases: ["fastapi", "has baber worked with fastapi"],
+    aliases: ["fastapi", "has sheharyar worked with fastapi"],
     priority: 5,
   });
 
@@ -975,7 +974,7 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
     category: "ai",
     title: "AI Projects",
     content:
-      "Yes. Baber has worked on AI-powered surveillance systems. The AI Surveillance System is currently implemented at California and Broadway venues, with demo footage available in the portfolio showcasing intelligent monitoring capabilities.",
+      "Yes. Sheharyar has worked on AI-driven surveillance systems, with deployments at California and Broadway venues and a portfolio demo highlighting intelligent monitoring capabilities.",
     keywords: [
       "ai",
       "artificial intelligence",
@@ -988,7 +987,7 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
     ],
     aliases: [
       "ai projects",
-      "has baber worked on ai",
+      "has sheharyar worked on ai",
       "ai surveillance",
       "california",
       "broadway",
@@ -1011,7 +1010,7 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
     category: "industries",
     title: "Healthcare Experience",
     content:
-      "Baber has built multilingual healthcare and hospital management software, including Daweeye — a platform designed for clinical workflows and hospital operations.",
+      "Sheharyar has built multilingual healthcare and hospital management software, including Daweeye — a platform designed for clinical workflows and hospital operations.",
     keywords: [
       "healthcare",
       "health",
@@ -1043,7 +1042,7 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
     category: "industries",
     title: "Logistics Experience",
     content:
-      "Baber has delivered live logistics products including FleetEx Logistics, Rapid Express Logistics, and the REL client portal — covering international freight, domestic shipping, and operational portals for Pakistan-based logistics companies — plus LoadNavigator, a mobile app for trucking, load posting, and route planning.",
+      "Sheharyar has delivered live logistics products including FleetEx Logistics, Rapid Express Logistics, and the REL client portal — covering international freight, domestic shipping, and operational portals for Pakistan-based logistics companies — plus LoadNavigator, a mobile app for trucking, load posting, and route planning.",
     keywords: [
       "logistics",
       "freight",
@@ -1079,7 +1078,7 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
     category: "projects",
     title: "POS Software",
     content:
-      "Yes. Baber can build POS software. Order Intel POS is built with Angular for multi-brand retail — Costa Coffee, Broadway, and California — and is designed to connect with Electron later for a native Windows EXE. A live demo is available online.",
+      "Yes. Sheharyar can build POS software. Order Intel POS is built with Angular for multi-brand retail — Costa Coffee, Broadway, and California — and is designed to support Electron-based desktop deployment for Windows.",
     keywords: [
       "pos",
       "point of sale",
@@ -1095,7 +1094,7 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
       "exe",
     ],
     aliases: [
-      "can baber build pos",
+      "can sheharyar build pos",
       "pos software",
       "point of sale",
       "costa coffee",
@@ -1119,14 +1118,14 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
     category: "services",
     title: "Enterprise Software",
     content:
-      "Yes. Baber builds enterprise software for logistics, healthcare, AI surveillance, management systems, ride-sharing platforms, and operational tools such as POS and client portals.",
+      "Yes. Sheharyar builds enterprise software for logistics, healthcare, AI surveillance, management systems, ride-sharing platforms, and operational tools such as POS and client portals.",
     keywords: [
       "enterprise",
       "scalable",
       "management systems",
       "business software",
     ],
-    aliases: ["can baber build enterprise", "enterprise software"],
+    aliases: ["can sheharyar build enterprise", "enterprise software"],
     projectIds: [
       "proj-daweeye",
       "proj-fleetex",
@@ -1145,7 +1144,7 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
     category: "projects",
     title: "Mobile Applications",
     content:
-      "Baber specializes in mobile applications. Published and delivered work includes RideLynk (user & rider), LookClean (App Store & Play Store), Facilitate (App Store & Play Store), MBN App, QBid, YouAreHere, Disc Music, LoadNavigator, Daweeye, HatchSocial, EndorseMe, and an indoor positioning app for Dubai malls — plus AI surveillance deployed at California and Broadway.",
+      "Sheharyar specializes in mobile applications. Published and delivered work includes RideLynk (user & rider), LookClean, Facilitate, MBN App, QBid, YouAreHere, Disc Music, LoadNavigator, Daweeye, and an indoor positioning app for Dubai malls — plus AI surveillance deployed at California and Broadway.",
     keywords: [
       "mobile",
       "apps",
@@ -1187,7 +1186,7 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
     category: "projects",
     title: "Web Applications",
     content:
-      "Baber has built live web applications including FleetEx Logistics and Rapid Express Logistics (Next.js), the REL client portal, and Order Intel POS (Angular) for Costa Coffee, Broadway, and California retail brands.",
+      "Sheharyar has built live web applications including FleetEx Logistics and Rapid Express Logistics (Next.js), the REL client portal, and Order Intel POS (Angular) for Costa Coffee, Broadway, and California retail brands.",
     keywords: ["web", "website", "web apps", "web applications", "portal"],
     aliases: ["show web applications", "websites", "web projects"],
     technologies: ["Next.js", "Angular", "TypeScript", "Tailwind CSS"],
@@ -1203,7 +1202,7 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
     category: "achievements",
     title: "Published Apps Count",
     content:
-      "Baber has worked on more than twenty commercial applications, including MBN App, QBid, YouAreHere, Disc Music, and LoadNavigator. Live store listings include RideLynk on Google Play, plus LookClean and Facilitate on both the Apple App Store and Google Play Store.",
+      "Sheharyar has contributed to 10+ commercial applications with multiple live releases, including RideLynk, LookClean, Facilitate, MBN App, QBid, YouAreHere, Disc Music, and LoadNavigator across the App Store and Google Play Store.",
     keywords: [
       "how many",
       "published",
@@ -1235,7 +1234,7 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
     id: "education",
     category: "education",
     title: "Education",
-    content: `Baber holds a ${kb.education[0].degree} from ${kb.education[0].institution}${kb.education[0].details ? ` (${kb.education[0].details})` : ""}.`,
+    content: `Sheharyar holds a ${kb.education[0].degree} from ${kb.education[0].institution}${kb.education[0].details ? ` (${kb.education[0].details})` : ""}.`,
     keywords: ["education", "degree", "university", "bahria", "studied"],
     aliases: ["where did he study", "education background"],
     priority: 7,
@@ -1245,12 +1244,12 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
     id: "services",
     category: "services",
     title: "Services",
-    content: `Baber provides: ${kb.services.map((s) => s.title).join("; ")}. ${kb.services.map((s) => s.description).join(" ")}`,
+    content: `Sheharyar provides: ${kb.services.map((s) => s.title).join("; ")}. ${kb.services.map((s) => s.description).join(" ")}`,
     keywords: ["services", "offer", "hire", "provide", "what can he do"],
-    aliases: ["what services", "services offered", "hire baber"],
+    aliases: ["what services", "services offered", "hire sheharyar"],
     priority: 9,
     actions: [
-      { type: "scroll_contact", label: "Contact Baber", targetId: "contact" },
+      { type: "scroll_contact", label: "Contact Sheharyar", targetId: "contact" },
     ],
   });
 
@@ -1258,7 +1257,7 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
     id: "contact",
     category: "contact",
     title: "Contact",
-    content: `Visitors can reach Baber at ${kb.contact.email} or ${kb.contact.phone}. He is based in ${kb.contact.location}.`,
+    content: `Visitors can reach Sheharyar at ${kb.contact.email} or ${kb.contact.phone}. He is based in ${kb.contact.location}.`,
     keywords: [
       "contact",
       "email",
@@ -1268,7 +1267,7 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
       "whatsapp",
       "message",
     ],
-    aliases: ["where can i contact", "contact baber", "get in touch"],
+    aliases: ["where can i contact", "contact sheharyar", "get in touch"],
     priority: 12,
     actions: [
       { type: "scroll_contact", label: "Open Contact", targetId: "contact" },
@@ -1285,7 +1284,7 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
     category: "resume",
     title: "Resume / CV",
     content:
-      "Baber's enhanced professional resume is available for download. It covers his experience as Team Lead and Senior Mobile Application Developer, React Native, Next.js, Angular, AI surveillance deployments, App Store / Play Store apps, and selected commercial projects.",
+      "Sheharyar's professional resume is available for download. It covers his experience as a mobile developer, React Native and Flutter specialist, UI/UX-focused builder, and contributor to commercial projects across healthcare, logistics, retail, and enterprise domains.",
     keywords: ["resume", "cv", "download", "curriculum"],
     aliases: ["download resume", "download cv", "get resume"],
     priority: 12,
@@ -1296,7 +1295,7 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
     id: "github",
     category: "social",
     title: "GitHub",
-    content: `Baber's GitHub profile is available at ${kb.social.github}.`,
+    content: `Sheharyar's GitHub profile is available at ${kb.social.github}.`,
     keywords: ["github", "git", "code", "repositories", "repos"],
     aliases: ["open github", "github profile"],
     priority: 11,
@@ -1313,7 +1312,7 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
     id: "linkedin",
     category: "social",
     title: "LinkedIn",
-    content: `Baber's LinkedIn profile is available at ${kb.social.linkedin}.`,
+    content: `Sheharyar's LinkedIn profile is available at ${kb.social.linkedin}.`,
     keywords: ["linkedin", "linked in", "professional profile"],
     aliases: ["open linkedin", "linkedin profile"],
     priority: 11,
@@ -1332,10 +1331,10 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
     title: "Availability",
     content: `${kb.availability.status}. ${kb.availability.message}`,
     keywords: ["available", "availability", "hire", "open to work", "freelance"],
-    aliases: ["is baber available", "availability"],
+    aliases: ["is sheharyar available", "availability"],
     priority: 8,
     actions: [
-      { type: "scroll_contact", label: "Contact Baber", targetId: "contact" },
+      { type: "scroll_contact", label: "Contact Sheharyar", targetId: "contact" },
     ],
   });
 
@@ -1343,7 +1342,7 @@ function buildEntries(kb: KnowledgeBase): KnowledgeEntry[] {
     id: "industries",
     category: "industries",
     title: "Industries",
-    content: `Baber has worked across these industries: ${kb.industries.join(", ")}.`,
+    content: `Sheharyar has worked across these industries: ${kb.industries.join(", ")}.`,
     keywords: ["industries", "domains", "sectors", "verticals"],
     aliases: ["what industries", "which domains"],
     priority: 8,
