@@ -114,7 +114,7 @@ function HeroPortraitComponent() {
           <div className="relative z-10 overflow-hidden rounded-[1.55rem] bg-[#030712]">
             <div className="relative aspect-[4/5] w-full">
               <Image
-                src="/assets/Sheharyar.jpeg"
+                src="/assets/sheharyar.avif"
                 alt={about.fullName}
                 fill
                 priority
