@@ -830,8 +830,8 @@ const knowledge = {
     },
     social: {
         github: "https://github.com/shehharyar28",
-        linkedin: "https://www.linkedin.com/in/syed-baber-ali-106831222",
-        portfolio: "https://portfolio-eight-wine-57.vercel.app/"
+        linkedin: "https://www.linkedin.com/in/sheharyar-2ba7b9352/",
+        portfolio: "https://portfolio-devurl2.vercel.app/"
     },
     faqs: [
         {
