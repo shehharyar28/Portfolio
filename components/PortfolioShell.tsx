@@ -201,7 +201,7 @@ export function PortfolioShell() {
           {...riseIn}
         >
           {[
-            ["3+", "Years"],
+            // ["3+", "Years"],
             ["10+", "Products"],
             ["2", "Stores"],
             ["5", "Live Deploys"],

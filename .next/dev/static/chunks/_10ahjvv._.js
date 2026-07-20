@@ -48,7 +48,7 @@ const knowledge = {
         title: "Mobile Application Developer",
         tagline: "Cross-Platform · React Native · Flutter · AI · 3+ Years",
         introduction: "Sheharyar is a results-driven Mobile Application Developer with over three years of experience building cross-platform mobile applications with React Native and Flutter. He has delivered production software across fintech, healthcare, ride-hailing, logistics, e-commerce, facilities management, retail POS, AI surveillance, and enterprise platforms. From Karachi, Pakistan, Sheharyar leads teams, designs scalable architectures, integrates third-party services, and ships App Store and Play Store products from concept to deployment.",
-        heroSummary: "Mobile Application Developer with 3+ years of experience. Specialized in React Native and Flutter — delivering 10+ commercial apps, App Store & Play Store releases, multi-brand POS systems, and AI surveillance deployed for real venues and brands.",
+        heroSummary: "Mobile Application Developer with 3 years of experience. Specialized in React Native and Flutter — delivering 10+ commercial apps, App Store & Play Store releases, multi-brand POS systems, and AI surveillance deployed for real venues and brands.",
         yearsExperience: 3,
         location: "Karachi, Pakistan"
     },
@@ -3882,10 +3882,7 @@ function PortfolioShell() {
                         className: "mb-4 grid max-w-3xl grid-cols-2 gap-3 sm:grid-cols-4",
                         ...__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$motion$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["riseIn"],
                         children: [
-                            [
-                                "3+",
-                                "Years"
-                            ],
+                            // ["3+", "Years"],
                             [
                                 "10+",
                                 "Products"
