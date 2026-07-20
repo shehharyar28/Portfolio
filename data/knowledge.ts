@@ -19,20 +19,20 @@ export const knowledge: KnowledgeBase = {
   },
 
   experience: [
-    {
-      id: "exp-team-lead",
-      title: "Team Lead - Mobile Applications",
-      company: "VirtueXolutions",
-      startDate: "Dec 2023",
-      endDate: "Present",
-      description:
-        "Leads React Native and full-product engineering teams across multiple client projects, owning architecture, planning, code reviews, and deployments.",
-      highlights: [
-        "Owns project architecture, development planning, code reviews and deployments",
-        "Coordinates directly with stakeholders and clients for successful delivery",
-        "Mentors developers and establishes team-wide development standards",
-      ],
-    },
+    // {
+    //   id: "exp-team-lead",
+    //   title: "Team Lead - Mobile Applications",
+    //   company: "VirtueXolutions",
+    //   startDate: "Dec 2023",
+    //   endDate: "Present",
+    //   description:
+    //     "Leads React Native and full-product engineering teams across multiple client projects, owning architecture, planning, code reviews, and deployments.",
+    //   highlights: [
+    //     "Owns project architecture, development planning, code reviews and deployments",
+    //     "Coordinates directly with stakeholders and clients for successful delivery",
+    //     "Mentors developers and establishes team-wide development standards",
+    //   ],
+    // },
     {
       id: "exp-senior-rn",
       title: "React Native Developer",
@@ -58,18 +58,18 @@ export const knowledge: KnowledgeBase = {
         "Integrated WebGis Library and PHP for Backend",
       ],
     },
-    {
-      id: "exp-associate",
-      title: "Associate Developer",
-      company: "SAS Solution",
-      startDate: "Nov 2020",
-      endDate: "Feb 2022",
-      description:
-        "Progressed from intern to a professional mobile development role, contributing to hybrid mobile application development and maintenance.",
-      highlights: [
-        "Contributed to hybrid mobile application development and maintenance",
-      ],
-    },
+    // {
+    //   id: "exp-associate",
+    //   title: "Associate Developer",
+    //   company: "SAS Solution",
+    //   startDate: "Nov 2020",
+    //   endDate: "Feb 2022",
+    //   description:
+    //     "Progressed from intern to a professional mobile development role, contributing to hybrid mobile application development and maintenance.",
+    //   highlights: [
+    //     "Contributed to hybrid mobile application development and maintenance",
+    //   ],
+    // },
   ],
 
   skills: {
@@ -327,30 +327,30 @@ export const knowledge: KnowledgeBase = {
         "Job tracking for drivers & carriers",
       ],
     },
-    {
-      id: "proj-hatchsocial",
-      name: "HatchSocial",
-      summary: "Social network with chat and live streaming features.",
-      description:
-        "A social networking platform featuring chat and live streaming capabilities.",
-      categories: ["mobile", "social"],
-      technologies: ["React Native", "Agora", "Pusher", "Firebase", "Google Pay"],
-      imageUrls: [
-        "/assets/screenshots/hatchsocial/01.webp",
-        "/assets/screenshots/hatchsocial/02.webp",
-        "/assets/screenshots/hatchsocial/03.webp",
-        "/assets/screenshots/hatchsocial/04.webp",
-        "/assets/screenshots/hatchsocial/05.webp",
-        "/assets/screenshots/hatchsocial/06.webp",
-        "/assets/screenshots/hatchsocial/07.webp",
-        "/assets/screenshots/hatchsocial/08.webp",
-        "/assets/screenshots/hatchsocial/09.webp",
-        "/assets/screenshots/hatchsocial/10.webp",
-        "/assets/screenshots/hatchsocial/11.webp",
-        "/assets/screenshots/hatchsocial/12.webp",
-      ],
-      highlights: ["Chat", "Live streaming"],
-    },
+    // {
+    //   id: "proj-hatchsocial",
+    //   name: "HatchSocial",
+    //   summary: "Social network with chat and live streaming features.",
+    //   description:
+    //     "A social networking platform featuring chat and live streaming capabilities.",
+    //   categories: ["mobile", "social"],
+    //   technologies: ["React Native", "Agora", "Pusher", "Firebase", "Google Pay"],
+    //   imageUrls: [
+    //     "/assets/screenshots/hatchsocial/01.webp",
+    //     "/assets/screenshots/hatchsocial/02.webp",
+    //     "/assets/screenshots/hatchsocial/03.webp",
+    //     "/assets/screenshots/hatchsocial/04.webp",
+    //     "/assets/screenshots/hatchsocial/05.webp",
+    //     "/assets/screenshots/hatchsocial/06.webp",
+    //     "/assets/screenshots/hatchsocial/07.webp",
+    //     "/assets/screenshots/hatchsocial/08.webp",
+    //     "/assets/screenshots/hatchsocial/09.webp",
+    //     "/assets/screenshots/hatchsocial/10.webp",
+    //     "/assets/screenshots/hatchsocial/11.webp",
+    //     "/assets/screenshots/hatchsocial/12.webp",
+    //   ],
+    //   highlights: ["Chat", "Live streaming"],
+    // },
     {
       id: "proj-menocrysis",
       name: "MenoCrysis",
@@ -363,8 +363,25 @@ export const knowledge: KnowledgeBase = {
         "/assets/screenshots/menocrysis/01.webp",
         "/assets/screenshots/menocrysis/02.webp",
         "/assets/screenshots/menocrysis/03.webp",
-        "/assets/screenshots/menocrysis/04.webp",
+        // "/assets/screenshots/menocrysis/04.webp",
         "/assets/screenshots/menocrysis/05.webp",
+        "/assets/screenshots/menocrysis/07.webp",
+        "/assets/screenshots/menocrysis/08.webp",
+        "/assets/screenshots/menocrysis/09.webp",
+        // "/assets/screenshots/menocrysis/10.webp",
+        "/assets/screenshots/menocrysis/11.webp",
+        // "/assets/screenshots/menocrysis/12.webp",
+        "/assets/screenshots/menocrysis/13.webp",
+        // "/assets/screenshots/menocrysis/14.webp",
+        "/assets/screenshots/menocrysis/15.webp",
+        "/assets/screenshots/menocrysis/16.webp",
+        "/assets/screenshots/menocrysis/17.webp",
+        // "/assets/screenshots/menocrysis/18.webp",
+        "/assets/screenshots/menocrysis/19.webp",
+        // "/assets/screenshots/menocrysis/20.webp",
+        // "/assets/screenshots/menocrysis/21.webp",
+        "/assets/screenshots/menocrysis/22.webp",
+        // "/assets/screenshots/menocrysis/23.webp",
       ],
       highlights: [
         "Onboarding and health assessment flow",
@@ -548,7 +565,7 @@ export const knowledge: KnowledgeBase = {
   ],
 
   achievements: [
-    "6+ years of professional mobile development experience",
+    "3+ years of professional mobile development experience",
     "Proven team leadership as Mobile Applications Team Lead",
     "Multiple commercial apps published on Google Play Store and Apple App Store",
     "Delivered software across fintech, healthcare, logistics, e-commerce and social platforms",
@@ -695,14 +712,14 @@ export const knowledge: KnowledgeBase = {
   ],
 
   contact: {
-    email: "syedbaber115@gmail.com",
-    phone: "+92 329 2297354",
+    email: "sheharyar1456@gmail.com",
+    phone: "03110287289",
     location: "Karachi, Pakistan",
     whatsapp: "+923292297354",
   },
 
   social: {
-    github: "https://github.com/Baber11",
+    github: "https://github.com/shehharyar28",
     linkedin: "https://www.linkedin.com/in/syed-baber-ali-106831222",
     portfolio: "https://portfolio-eight-wine-57.vercel.app/",
   },

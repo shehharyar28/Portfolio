@@ -2443,16 +2443,6 @@
     color: var(--color-slate-100);
   }
 
-  .text-slate-100\/90 {
-    color: #f1f5f9e6;
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .text-slate-100\/90 {
-      color: color-mix(in oklab, var(--color-slate-100) 90%, transparent);
-    }
-  }
-
   .text-slate-200 {
     color: var(--color-slate-200);
   }

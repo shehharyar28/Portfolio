@@ -5,7 +5,6 @@ import { knowledge } from "@/data/knowledge";
 import { GalaxyBackground } from "@/components/effects/GalaxyBackground";
 import { HeroPortrait } from "@/components/effects/HeroPortrait";
 import { HoloCard } from "@/components/effects/HoloCard";
-import { PortraitVideoFrame } from "@/components/effects/PortraitVideoFrame";
 import { ProjectCard } from "@/components/projects/ProjectCard";
 import { LazyMount } from "@/components/LazyMount";
 import { riseIn, riseInX } from "@/lib/motion";
@@ -202,10 +201,10 @@ export function PortfolioShell() {
           {...riseIn}
         >
           {[
-            ["6+", "Years"],
-            ["20+", "Products"],
+            ["3+", "Years"],
+            ["10+", "Products"],
             ["2", "Stores"],
-            ["AI", "Live Deploys"],
+            ["5", "Live Deploys"],
           ].map(([value, label]) => (
             <div
               key={label}
@@ -287,57 +286,6 @@ export function PortfolioShell() {
                   FleetEx, Rapid Express, and Order Intel POS.
                 </p>
               ) : null}
-            </div>
-          </LazyMount>
-        </section>
-
-        <section id="ai" className="scroll-mt-24 py-14 sm:py-20">
-          <SectionHeading
-            eyebrow="Neural uplink"
-            title="AI Surveillance"
-            subtitle="Currently implemented at California and Broadway — portrait field demo."
-          />
-          <LazyMount minHeight={420} rootMargin="180px 0px">
-            <div className="grid items-center gap-10 lg:grid-cols-[1fr_auto_1fr]">
-              <div className="space-y-5">
-                {ai.map((p) => (
-                  <HoloCard key={p.id}>
-                    <h3 className="font-display text-lg text-slate-50">
-                      {p.name}
-                    </h3>
-                    <p className="mt-2 text-sm text-slate-400">{p.description}</p>
-                    <div className="mt-3 flex flex-wrap gap-1.5">
-                      {p.technologies.map((t) => (
-                        <span
-                          key={t}
-                          className="rounded border border-cyan-500/20 bg-cyan-500/5 px-2 py-0.5 font-mono text-[10px] text-cyan-200/80"
-                        >
-                          {t}
-                        </span>
-                      ))}
-                    </div>
-                  </HoloCard>
-                ))}
-              </div>
-              <PortraitVideoFrame
-                src="/assets/ai-surveillance-demo.mp4"
-                caption="// AI_SURVEILLANCE · CALIFORNIA · BROADWAY"
-              />
-              <div className="hidden space-y-4 lg:block">
-                {[
-                  "Live at California venues",
-                  "Live at Broadway venues",
-                  "Computer vision monitoring HUD",
-                ].map((line) => (
-                  <div
-                    key={line}
-                    className="rounded-xl border border-cyan-400/20 bg-cyan-950/30 px-4 py-3 font-mono text-xs text-cyan-100/80"
-                  >
-                    <span className="mr-2 text-teal-400">▸</span>
-                    {line}
-                  </div>
-                ))}
-              </div>
             </div>
           </LazyMount>
         </section>
